@@ -1,10 +1,15 @@
+:root{
+    --pref-width: 400;
+    --text-color: white;
+}
+
 aside{
-    width: 400px;
+    width: var(--pref-width);
     margin: 10px;
     border: 5px;
     padding: 3px;
     background-color: #abe ;
-    color: white;
+    color: var(--text-color);
 }
 
 aside img{
@@ -18,7 +23,7 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: var(--text-color);
     display: block;
     padding: 20px;
 }
@@ -40,7 +45,7 @@ p{
 }
 
 main{
-    max-width: 400px;
+    max-width: var(--pref-width);
 }
 
 footer{
