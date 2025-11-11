@@ -4,12 +4,12 @@
 }
 
 aside{
-    width: var(--pref-width);
+    width: 400px;
     margin: 10px;
     border: 5px;
     padding: 3px;
     background-color: #abe ;
-    color: var(--text-color);
+    color: white;
 }
 
 aside img{
@@ -23,7 +23,7 @@ nav{
 }
 
 nav a{
-    color: var(--text-color);
+    color: white;
     display: block;
     padding: 20px;
 }
@@ -45,7 +45,7 @@ p{
 }
 
 main{
-    max-width: var(--pref-width);
+    max-width: 400px;
 }
 
 footer{
