@@ -32,7 +32,7 @@ nav{
 }
 
 nav a{
-    color: var(--text-color);
+    color: white;
     display: block;
     padding: 20px;
 }
@@ -54,7 +54,7 @@ p{
 }
 
 main{
-    max-width: var(--pref-width);
+    max-width: 400px;
 }
 
 main img{
