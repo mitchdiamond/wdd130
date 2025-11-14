@@ -9,7 +9,7 @@
 
 header{
     background-color: var(--primary-color);
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
 
 *{
