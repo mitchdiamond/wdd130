@@ -8,16 +8,21 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-body{
-    font-family: var(--body-font);
-    color: var(--accent1-color);
+header{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color);
 }
 
 header, main, footer{
@@ -27,19 +32,12 @@ header, main, footer{
 
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--secondary-color);
-    background-color: var(--accent1-color);
-    text-align: center;
+    color: var(--primary-color);
 }
 
 nav, p, section, article{
     margin: 16px;
     padding: 8px;
-}
-
-header{
-    background-color: var(--accent2-color);
-    color: var(--accent2-color);
 }
 
 .socialmedia a{
@@ -50,42 +48,58 @@ header{
     position: relative;
 }
 
-
-h1{
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-}
-
-.hero article h1{
-    position: absolute;
-}
-
-.hero article img{
-    align-self: center;
-    float: right;
-    width: 200px;
-    padding: 10px;
-}
-
-article{
-    position: absolute;
-    text-align: left;
-    top: 125px;
-    left: 0px;
-    width: 95%;
-    padding: 0px;
-    opacity: 1;
-    background-color: var(--accent3-color);
-}
-
 .hero img{
     display: block;
     width: 100%;
     height: auto;
-    
+}
+
+
+.hero article{
+    position: absolute;
+    z-index: 0;
+    top: 170px;
+    right: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: var(--secondary-color);
+
+}
+
+.hero article img{
+    float: right;
+    z-index: 1;
+    top: 0;
+    right: 0px;
+    width: 200px;
+}
+
+.hero article p{
+    margin: 0px;
+    top: 210px;
+    left: 0px;
+    opacity: 0.8;
+    padding: 16px;
+
+
+}
+
+.hero h1{
+    top: -170px;
+    left: 0px;
+}
+
+
+
+
+
+h1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent3-color);
+    opacity: 0.7;
 }
