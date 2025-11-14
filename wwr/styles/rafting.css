@@ -61,7 +61,9 @@ h1{
     background-color: var(--accent1-color);
 }
 
-
+.hero article h1{
+    position: absolute;
+}
 
 .hero article img{
     align-self: center;
