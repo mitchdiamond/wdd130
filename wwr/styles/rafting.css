@@ -90,6 +90,9 @@ nav, p, section, article{
     left: 0px;
 }
 
+section p{
+    color: var(--primary-color)
+}
 
 
 
