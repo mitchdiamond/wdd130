@@ -9,6 +9,33 @@
     --text-color: white;
 }
 
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav{
+    display:flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
 aside{
     width: var(--pref-width);
     text-align: center;
@@ -39,6 +66,7 @@ nav a{
 
 h1{
     color: darkblue;
+    border-bottom: double;
 }
 
 main img{
@@ -54,7 +82,15 @@ p{
 }
 
 main{
-    max-width: 400px;
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside{
+    width: 20rem;
+    grid-column: 1/2;
+    position: relative;
+    grid-row: 1/2;
 }
 
 main img{
