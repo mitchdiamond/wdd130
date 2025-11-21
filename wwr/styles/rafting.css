@@ -2,7 +2,6 @@
     --primary-color: #184059;
     --secondary-color: #0B1C26;
     --accent1-color: #63CAF2;
-    --accent3-color: #AFD9AD;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -148,13 +147,15 @@ section p{
     display:flex;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
     padding-block: 5px;    
     background-color: #63CAF2;
 }
 
 .adventure img{
-    flex:1;
+    padding: 5px;
     width: 19%;
+
 }
 
 .history h2, .history p{
