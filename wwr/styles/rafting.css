@@ -130,9 +130,9 @@ nav, p, section{
     left: 0px;
 }
 
-section p{
+/* section p{
     color: var(--primary-color)
-}
+} */
 
 .history{
     width: 100%;
