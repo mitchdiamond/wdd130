@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<main>
+    <form>
+        <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form-item column2">
+            <label for="email">Email Address:</label>
+            <input type="text" id="username" name="usermail" required>
+        </div>
+
+        <div class="form-item column2">
+            <label for="browser">What is your favorite browser</label>
+            <select name="browser" id="browser">
+                <option value="Chrome">Chrome</option>
+                <option value="Safari">Safari</option>
+                <option value="Edge">Edge</option>
+                <option value="Brave">Brave</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-item column1">
+            <label><input type="checkbox" id="petowner" name="petowner"> Do you have a pet?</label>
+        </div>
+
+        <div class="form-item column1">
+            <label for="feedback">List the places you have lived.</label>
+            <textarea id="feedback" id="feedback" namem="feedback" rows="4" placeholder="Jamacia, Aruba"></textarea>
+        </div>
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+
+<footer>
+
+</footer>
+
+</html>
