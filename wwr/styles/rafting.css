@@ -59,7 +59,7 @@ header, main, footer{
 h1{
     font-family: var(--heading-font);
     --secondary-color: #0B1C26;
-    position: absolute;
+
     top: 0px;
     left: 0px;
     width: 100%;
@@ -71,6 +71,7 @@ h1{
 
 h2{
     color: var(--secondary-color);
+    text-align: center;
 }
 
 nav, p, section{
@@ -199,6 +200,66 @@ nav, p, section{
     /* width: 40%; */
     width: 100%;
     /* width: 250px; */
+}
+
+form{
+    border: 0.5rem;
+    background-color: rgb(189, 188, 188);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1rem;
+    height: 350px;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.bottom-about{
+    margin: .5rem;
+    display: flex;
+
+}
+
+.form-item{
+    width: 100%;
+    display: inherit;
+    flex-direction: row;
+    padding-bottom: 0.5rem;
+}
+
+.form-radio{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info{
+    display:grid;
+    border: 5rem;
+    margin: auto;
+    text-align: center;
+}
+.form-col1{
+    width: 10rem;
+    margin-left: 0.5rem; 
+}
+
+.form-textarea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+
+}
+
+.form-radio-options{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100%;
+    border-radius: 0.5rem;
 }
 
 footer{
