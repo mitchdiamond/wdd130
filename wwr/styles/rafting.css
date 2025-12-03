@@ -262,6 +262,32 @@ button{
     border-radius: 0.5rem;
 }
 
+.staff{
+    background-color: var(--accent3-color);
+}
+
+.staff-header{
+    text-align: center;
+    width: 100%;
+}
+
+.staff img{
+    width: 150px;
+}
+
+.staff-item{
+    display: inherit;
+    flex-direction: column;
+    width: 20%;
+
+}
+
+.staff-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
 footer{
     display:flex;
     justify-content: space-between;
